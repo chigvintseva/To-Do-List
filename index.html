@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TO-DO List</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+<!-- awesome kits website link for icons: -->
+<script src="https://kit.fontawesome.com/fcd1f33088.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1 id="myHeader">TO-DO List</h1>
+
+    <input type="button" id="addButton" value="Add" onclick="addTask()"> 
+    
+    <input type="text" id="input" placeholder="Enter task here...">
+        
+    
+    <hr>
+        
+    <ul id="tasks">
+      <li>
+        <input id="button" type="button" class="done" onclick="markDone(this.parentNode)" value="&#x2713;" />
+        
+        <input type="button" class="remove" onclick="remove(this.parentNode)" value="&#x2715;" />
+        
+        <input type="button" id="important" class="important" onclick="imp(this.parentNode)" value="!" />
+        
+        <span>Create a to-do list</span>
+      </li>
+      
+        </ul>
+    <hr>
+    
+    <div id="divabout">
+    <input type="button" value="About" onclick="doAbout()">
+      </div> 
+      <div id="cleardiv">
+    <input type="button"  value="Clear" onclick="clearAbout()"> 
+     </div>
+           
+
+</body>

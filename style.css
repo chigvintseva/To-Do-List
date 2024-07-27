@@ -1,0 +1,78 @@
+body {
+    background-color: light-green;
+  }
+  
+  ul {
+    padding-left: 0;
+  }
+  /* remove traditional bullet from front of list items  */
+  li {
+    list-style-type: none;
+    background-color: #eee;
+    border: 1px solid #c3c3c3;
+    padding: 10px 0px 10px 5px;
+    font-size: 20px;
+  }
+   
+  
+  
+  .done {
+    background-color: #04AA6D;
+    border-radius: 4px;
+  }
+  
+  .remove {
+    background-color: #f44336;
+    border-radius: 4px;
+  }
+  
+  .important {
+    background-color: #F9E076;
+    border-radius: 50%;
+  }
+  
+  .BackGrImportant {
+    background-color: #F3EAAF;
+  }
+  
+  /* mark task as finished */
+  li.finished {
+     color: white;
+    background-color: grey;
+  }
+  li.finished span {
+      text-decoration: line-through;
+  }
+  
+  
+  input[type="text"] {
+    font-size: 18px;
+    width: 94%;
+    padding: 10px;
+  }
+  
+  input[type="button"] {
+    font-size: 1.2em;
+    margin: -6px 4px 0px 0px;
+  }
+  
+  #addButton {
+    padding: 10px;
+  }
+  
+  .yellowback {
+    background-color: yellow;
+  }
+  
+  /* locate divs in one line with a space between */
+  #divabout,
+  #cleardiv {
+    width: 50px;
+    font-size: 15px;
+    display: inline-block;
+    margin: 10px;
+  } 
+  
+  
+  
+  
